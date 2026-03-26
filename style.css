@@ -1,3 +1,4 @@
+/* 全体設定 */
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
@@ -7,6 +8,7 @@ body {
   color: #333;
 }
 
+/* ヘッダー */
 header {
   background-color: #e67e9f;
   color: white;
@@ -20,29 +22,34 @@ nav a {
   text-decoration: none;
 }
 
+/* ヒーローセクション */
 .hero {
-   background-image: url(
+  /* 背景画像を設定する場合はurl("画像パス")を指定 */
+  /* 例: background-image: url('images/hero.jpg'); */
+  background-color: #fde2e4;
   background-size: cover;
   background-position: center;
   color: white;
   text-align: center;
   padding: 4em 1em;
   position: relative;
-  background-color: #fde2e4;
-  text-align: center;
 }
 
+/* セクション */
 section {
   padding: 2em;
   max-width: 800px;
   margin: auto;
 }
 
+/* 見出し2 */
 h2 {
   color: #e67e9f;
 }
 
-form input, form textarea {
+/* フォーム */
+form input,
+form textarea {
   width: 100%;
   padding: 0.5em;
   margin-top: 0.5em;
@@ -50,6 +57,7 @@ form input, form textarea {
   border-radius: 4px;
 }
 
+/* ボタン */
 button {
   background-color: #e67e9f;
   color: white;
@@ -59,6 +67,7 @@ button {
   cursor: pointer;
 }
 
+/* フッター */
 footer {
   background-color: #eee;
   text-align: center;
